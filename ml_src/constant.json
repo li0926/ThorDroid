@@ -1,0 +1,33 @@
+{
+    "apk_path":"../data/apk",
+    "TYPE":2,
+    "TYPE_list":["goodware","malware"],
+    "apis_path":"../data/apis",
+    "identifiers_path":"../data/identifiers",
+    "train_path":"../data/identifiers/train",
+    "test_path":"../data/identifiers/test",
+    "useful_api_class":"../../useful_api_class",
+    "mapping_to_identifier_path":"../model/method_dict.pickle",
+    "word2vec_model_path":"../model/word2vec.model",
+    "save_model_path": "../model/deep_learning.model",
+
+    "log_path":"../log/time.txt",
+    "permission_train_path":"../data/permission/reader88_3.29.csv",
+    "ml_model_path":"../model/ml.model",
+
+    "K":64,
+    "L":2500,
+
+    "maxpooling_size":[14,14],
+    "batch_size":10,
+    "filter_count":512,
+    "kernel_size":3,
+    "first_neuron_count":256,
+    "dropout":0.5,
+    "epochs":15,
+    "val_split":0.2,
+    "test_split":0.1,
+    "KFCV":1,
+    "KFCV_K":5
+
+}

@@ -1,0 +1,18 @@
+{
+    "Landroid/content/ContentResolver;:query":"读取联系人、短信等数据库",
+    "Landroid/content/ContentResolver;:delete":"删除联系人、短信",
+    "Landroid/telephony/SmsManager;:sendMultipartTextMessage":"发送彩信",
+    "Ljava/net/URL;:openConnection":"连接URL",
+    "Ljava/net/HttpURLConnection;:connect":"连接URL",
+    "Landroid/telephony/SmsManager;:sendTextMessage":"发送短信",
+    "Lorg/apache/http/client/HttpClient;:execute":"请求远程服务器",
+    "Landroid/telephony/TelephonyManager;:getDeviceId":"搜集用户信息",
+    "Landroid/telephony/TelephonyManager;:getSimSerialNumber":"获取SIM序列号",
+    "Ljava/lang/Runtime;:exec":"执行字符串命令",
+    "Lorg/apache/http/impl/client/DefaultHttpClient;:execute":"发送HTTP请求",
+    "Ljava/lang/Runtime;:getRuntime":"获取命令行环境",
+    "Landroid/net/wifi/WifiManager;:setWifiEnabled":"更改wifi状态",
+    "Landroid/location/LocationManager;:getLastKnownLocation":"获取地址位置",
+    "Landroid/app/NotificationManager;:notify":"信息通知"
+
+}
